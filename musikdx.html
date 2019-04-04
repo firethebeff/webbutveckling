@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eksde Musik</title>
+    <meta charset = "utf-8" />
+    <link href = "musikdx.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--wrapper börjar-->
+    <div class="wrapper">
+
+    <header class="header">
+        <h1>Musik</h1>
+    </header>
+
+    <header class="mainmenu">
+        <ul>
+            <li><a href="Projectdx.html">Hem</a></li>
+            <li><a href="marco2.html">Spel</a></li>
+            <li><a href="film.html">Film</a></li>
+            <li><a href="musikdx.html">Musik</a></li>
+        <ul>
+    </header>
+
+    <div class="wrapper_2col">
+    <div class="leftcol">
+      <section>
+        <h2> Robins val av artist </h2>
+      <p>
+        Travis Scott eller Jacques Webster som han egentligen heter,
+        kommer ursprungligen från Houston, Texas och växte upp i Missouri City.
+        Han är född 30:e april 1992, han är en rappare, sångare, låtskrivare
+        och musikproducent. Hans musikgenrer är Hiphop, Trap, R&B. Han har
+        släppt fyra album (Rodeo, Birds in the Trap Sing McKnight,
+        Huncho Jack, Jack Huncho och Astroworld).
+        Några kända låtar som han har gjort är: Antidote, Sicko Mode,
+        Goosebumps, 3500, Quintana.
+      </p>
+
+      <p>
+        Travis Scott började sin karriär med att han hoppade av Univerity of
+        Texas i San Antonio för att satsa fullt på sin musikkarriär. Han
+        började med musik år 2008.
+      </p>
+
+      <p>
+        Det finns några kopplingar till historia och samhälle i vissa låtar
+        eftersom t.e.x. albumet Astroworld som han släppte namngav han efter
+        en nöjespark som fanns när han var mindre som sedan stängde igen,
+        som hette Six Flags Astroworld.
+
+      <p>
+
+        Travis Scotts musik är tidstypisk, den har en sådan stil som modern
+        rapp brukar ha idag. T.ex. för 10-20 år sedan så såg rapp annorlunda ut,
+        då rappade man mer med rim m.m. idag så rappar man oftast om olika
+        saker och med kanske inte alls så mycket rim som man gjorde mer förr.
+
+      </p>
+
+      <audio controls>
+  <source src="butterflyeffect.mp3" type="audio/mpeg">
+    Din webbläsare stödjer inte denna mp3 fil.
+      </audio>
+
+
+    </div><!--leftcol slutar-->
+
+  <div class="middlecol">
+    <img class="mySlides" src="eminem1.jpg"style="width:100%">
+    <img class="mySlides" src="travisscott2.jpg"style="width:100%">
+    <img class="mySlides" src="eminem2.jpg"style="width:100%">
+    <img class="mySlides" src="travisscott1.jpg"style="width:100%">
+  <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+  </div><!--middlecol slutar-->
+
+    <div class="rightcol">
+
+      <h2> Marcos val av artist </h2>
+      <p>
+        Eminem är en amerikansk rappare som växte upp i en tuff miljö.
+        Han växte upp i ett afroamerikanskt område, hans pappa lämnade
+        familjen när han var riktigt liten. Under tiden när låtarna Cleaning
+        Out My Closet, My Mom och Sing For The Moment kom så gjorde hans mamma
+        droger. Han började rappa redan när han var 8 år gammal Eminems kärlek
+        till hiphop har inspirerat honom och hjälpt honom uttrycka sina känslor.
+
+      </p>
+
+      <p>
+        Detta är relaterat till hur det är att växa upp i ett slumområde som
+        Detroit. I Detroit är det väldigt mycket kriminalitet och droghandel.
+        Detroit är även känd som musikstaden eftersom staden har en historia
+        med afroamerikansk bakgrund och en massa andra artister och musikgenrer.
+      </p>
+
+      <audio controls>
+  <source src="loseyourself.mp3" type="audio/mpeg">
+    Din webbläsare stödjer inte denna mp3 fil.
+      </audio>
+
+      <div class="push"></div>
+    </div><!--rightcol slutar-->
+    </div><!--wrapper2col slutar-->
+
+    <footer class="footer">
+      <p>All rights reserved - &#169; Copyright</p>
+    </footer>
+
+    </div><!--wrapper slutar-->
+  </body>
+</html>
